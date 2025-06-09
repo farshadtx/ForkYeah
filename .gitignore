@@ -1,0 +1,28 @@
+# Build and Derived Data
+build/
+DerivedData/
+
+# User Specific
+.xcuserstate
+.xcworkspace
+.xcodeproj/project.xcworkspace/
+.xcuserdata/
+
+# Dependency Managers
+Carthage/Build/
+Pods/ # Optional
+.swiftpm/ # Optional
+
+# System Files and IDE Metadata
+.DS_Store
+*.swp
+
+# Automation Tools
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Sensitive Data
+Secrets.plist
+*.xcconfig

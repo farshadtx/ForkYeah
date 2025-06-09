@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "5E794466-376C-49D8-9822-A035EEF530DC",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ForkYeah.xcodeproj",
+      "identifier" : "F8BB564B2DEF96E6006CFAC6",
+      "name" : "ForkYeah"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ForkYeah.xcodeproj",
+        "identifier" : "F8BB565A2DEF96E7006CFAC6",
+        "name" : "ForkYeahTests"
+      }
+    }
+  ],
+  "version" : 1
+}

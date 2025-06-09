@@ -14,19 +14,12 @@
 			remoteGlobalIDString = F8BB564B2DEF96E6006CFAC6;
 			remoteInfo = ForkYeah;
 		};
-		F8BB56662DEF96E7006CFAC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8BB56442DEF96E6006CFAC6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8BB564B2DEF96E6006CFAC6;
-			remoteInfo = ForkYeah;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8765A232DF60ABA00255BE4 /* ForkYeah.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ForkYeah.xctestplan; sourceTree = "<group>"; };
 		F8BB564C2DEF96E6006CFAC6 /* ForkYeah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForkYeah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BB565B2DEF96E7006CFAC6 /* ForkYeahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForkYeahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8BB56652DEF96E7006CFAC6 /* ForkYeahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForkYeahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +31,6 @@
 		F8BB565E2DEF96E7006CFAC6 /* ForkYeahTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ForkYeahTests;
-			sourceTree = "<group>";
-		};
-		F8BB56682DEF96E7006CFAC6 /* ForkYeahUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ForkYeahUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,22 +50,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8BB56622DEF96E7006CFAC6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F8BB56432DEF96E6006CFAC6 = {
 			isa = PBXGroup;
 			children = (
+				F8765A232DF60ABA00255BE4 /* ForkYeah.xctestplan */,
 				F8BB564E2DEF96E6006CFAC6 /* ForkYeah */,
 				F8BB565E2DEF96E7006CFAC6 /* ForkYeahTests */,
-				F8BB56682DEF96E7006CFAC6 /* ForkYeahUITests */,
 				F8BB564D2DEF96E6006CFAC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +68,6 @@
 			children = (
 				F8BB564C2DEF96E6006CFAC6 /* ForkYeah.app */,
 				F8BB565B2DEF96E7006CFAC6 /* ForkYeahTests.xctest */,
-				F8BB56652DEF96E7006CFAC6 /* ForkYeahUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +120,6 @@
 			productReference = F8BB565B2DEF96E7006CFAC6 /* ForkYeahTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F8BB56642DEF96E7006CFAC6 /* ForkYeahUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8BB56752DEF96E7006CFAC6 /* Build configuration list for PBXNativeTarget "ForkYeahUITests" */;
-			buildPhases = (
-				F8BB56612DEF96E7006CFAC6 /* Sources */,
-				F8BB56622DEF96E7006CFAC6 /* Frameworks */,
-				F8BB56632DEF96E7006CFAC6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8BB56672DEF96E7006CFAC6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F8BB56682DEF96E7006CFAC6 /* ForkYeahUITests */,
-			);
-			name = ForkYeahUITests;
-			packageProductDependencies = (
-			);
-			productName = ForkYeahUITests;
-			productReference = F8BB56652DEF96E7006CFAC6 /* ForkYeahUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,10 +135,7 @@
 					};
 					F8BB565A2DEF96E7006CFAC6 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = F8BB564B2DEF96E6006CFAC6;
-					};
-					F8BB56642DEF96E7006CFAC6 = {
-						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 						TestTargetID = F8BB564B2DEF96E6006CFAC6;
 					};
 				};
@@ -202,7 +156,6 @@
 			targets = (
 				F8BB564B2DEF96E6006CFAC6 /* ForkYeah */,
 				F8BB565A2DEF96E7006CFAC6 /* ForkYeahTests */,
-				F8BB56642DEF96E7006CFAC6 /* ForkYeahUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +169,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F8BB56592DEF96E7006CFAC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8BB56632DEF96E7006CFAC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8BB56612DEF96E7006CFAC6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +199,6 @@
 			isa = PBXTargetDependency;
 			target = F8BB564B2DEF96E6006CFAC6 /* ForkYeah */;
 			targetProxy = F8BB565C2DEF96E7006CFAC6 /* PBXContainerItemProxy */;
-		};
-		F8BB56672DEF96E7006CFAC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8BB564B2DEF96E6006CFAC6 /* ForkYeah */;
-			targetProxy = F8BB56662DEF96E7006CFAC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -450,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L944VJ78VR;
@@ -459,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftgraph.ForkYeahTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForkYeah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForkYeah";
@@ -469,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L944VJ78VR;
@@ -481,40 +418,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForkYeah.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ForkYeah";
-			};
-			name = Release;
-		};
-		F8BB56762DEF96E7006CFAC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L944VJ78VR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftgraph.ForkYeahUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ForkYeah;
-			};
-			name = Debug;
-		};
-		F8BB56772DEF96E7006CFAC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L944VJ78VR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.swiftgraph.ForkYeahUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ForkYeah;
 			};
 			name = Release;
 		};
@@ -544,15 +447,6 @@
 			buildConfigurations = (
 				F8BB56732DEF96E7006CFAC6 /* Debug */,
 				F8BB56742DEF96E7006CFAC6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8BB56752DEF96E7006CFAC6 /* Build configuration list for PBXNativeTarget "ForkYeahUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8BB56762DEF96E7006CFAC6 /* Debug */,
-				F8BB56772DEF96E7006CFAC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
